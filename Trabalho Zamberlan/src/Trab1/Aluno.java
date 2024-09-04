@@ -40,7 +40,7 @@ import java.util.Random;
 
         // Método para gerar nomes aleatórios
         public static String gerarNomeAleatorio() {
-            String[] nomes = {"Ana", "Bruno", "Carlos", "Diana", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Julia", "Leonardo", "Mariana", "Felipe", "Alexandre", "Gilberto", "Eduarda", "Maria", "Claudio"};
+            String[] nomes = {"Ana", "Bruno", "Eduardo", "Fernanda", "Gabriel", "Joice", "Igor", "Julia", "Iago", "Mariana", "Felipe", "Alexandre", "Gilberto", "Eduarda", "Maria", "Claudio"};
             Random random = new Random();
             return nomes[random.nextInt(nomes.length)] + " " + (char) (random.nextInt(26) + 'A') + ". " + (char) (random.nextInt(26) + 'A') + ".";
         }
